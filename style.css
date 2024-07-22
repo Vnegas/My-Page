@@ -1,0 +1,225 @@
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#nav-bar {
+  background-color: black;
+  color: white;
+  padding: 20px 50px;
+}
+
+#navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cvButton1 {
+  margin-right: 50px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-weight: 400;
+}
+
+.cvButton2 {
+  margin-right: 50px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-weight: 400;
+}
+
+.cvButton3 {
+  margin-right: 50px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-weight: 400;
+}
+
+hr {
+  border: 1px solid white;
+  margin: 2%;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.sliderWrapper {
+  display: flex;
+  width: 600vw;
+  transition: all 1s ease-in-out;
+}
+
+.sliderItem {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 30px 0px 30px 0px;
+}
+
+.sliderImg {
+  position: relative;
+  width: 180px;
+  height: 215px;
+
+}
+
+.nextImg {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  right: -12.5%;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.lastImg {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  right: 15%;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.cvContent1 {
+  display: none;
+  flex-direction: column;
+  width: 500px;
+  height: 260px;
+  background-color: white;
+  position: fixed;
+  top: 20px; bottom: 0;
+  left: 0; right: 0;
+  margin: auto;
+  padding: 20px 50px 10px 50px;
+  -webkit-box-shadow: 0px 0px 27px -3px #000000; 
+  box-shadow: 0px 0px 27px -3px #000000;
+}
+
+.cvContent2 {
+  display: none;
+  flex-direction: column;
+  width: 500px;
+  height: 260px;
+  background-color: white;
+  position: fixed;
+  top: 20px; bottom: 0;
+  left: 0; right: 0;
+  margin: auto;
+  padding: 20px 50px 10px 50px;
+  -webkit-box-shadow: 0px 0px 27px -3px #000000; 
+  box-shadow: 0px 0px 27px -3px #000000;
+}
+
+.cvContent3 {
+  display: none;
+  flex-direction: column;
+  width: 500px;
+  height: 260px;
+  background-color: white;
+  position: fixed;
+  top: 20px; bottom: 0;
+  left: 0; right: 0;
+  margin: auto;
+  padding: 20px 50px 10px 50px;
+  -webkit-box-shadow: 0px 0px 27px -3px #000000; 
+  box-shadow: 0px 0px 27px -3px #000000;
+}
+
+.cvTitle {
+  color: rgb(77, 149, 5);
+}
+
+.close1 {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  background-color: white;
+  color: rgb(142, 142, 142);;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.close2 {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  background-color: white;
+  color: rgb(142, 142, 142);;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.close3 {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  background-color: white;
+  color: rgb(142, 142, 142);;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin: 0%;
+  padding: 2%;
+}
+
+.descripcion {
+  padding: 2px 0px 15px 50px;
+}
+
+#descr {
+  border: 1px solid lightgray;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  text-align: center; float: left;
+  width: 100%; height: 100%;
+  font-size: small; color: white;
+  background-color: black;
+  padding: 0.5%; margin-top: 1%;
+}
